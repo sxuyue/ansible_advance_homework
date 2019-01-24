@@ -1,3 +1,2 @@
----
-# vars file for app-tier
-own_repo_path: http://admin.na.shared.opentlc.com/repos/ocp/3.6/
+payload:          tomcat
+tomcat_web_root:  /usr/share/tomcat/webapps/ROOT
