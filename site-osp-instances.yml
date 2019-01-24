@@ -2,6 +2,7 @@
   become: yes
 #  roles:
 #    - osp-servers
+  tasks:
 ##Create Fronend Instance
   - name: Create frontend instance
     include_role:
