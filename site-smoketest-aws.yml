@@ -4,8 +4,8 @@
   - name: Use Uri module for wrting smoke test.
     uri:
       url: "http://{{ item }}"
-    method: GET
-    return_content: yes
+      method: GET
+      return_content: yes
     register: webpage
     with_items:
       - "{{ inventory_hostname }}"
