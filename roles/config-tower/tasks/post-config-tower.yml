@@ -8,7 +8,7 @@
     scm_type: git
     scm_url: "{{ scm_url }}"
     scm_branch: "{{ scm_branch }}"
-    scm_update_on_launch: yes
+#    scm_update_on_launch: yes
     
 - name: Machine Credentail to connect to workstation using openstack.pub
   tower_credential:
